@@ -21,31 +21,23 @@
         </profile>
     </profiles>
 
-    <name>LoadImpact Jenkins plugin</name>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/Load+Impact+Plugin</url>
+    <name>Load Impact Jenkins plugin</name>
     <groupId>com.loadimpact</groupId>
     <artifactId>loadimpact-plugin</artifactId>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Load+Impact+Plugin</url>
     <version>1.4</version>
     <packaging>hpi</packaging>
-
     <organization>
       <name>Load Impact</name>
       <url>http://loadimpact.com/</url>
     </organization>
 
-  <scm>
-    <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}.git</developerConnection>
-    <url>http://github.com/jenkinsci/${project.artifactId}</url>
-    <tag>HEAD</tag>
-  </scm>
-  
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.6</java.version>
         <maven-hpi-plugin.version>1.96</maven-hpi-plugin.version>
         <credentials.version>1.10</credentials.version>
-        <loadimpact.sdk.version>1.2-SNAPSHOT</loadimpact.sdk.version>
+        <loadimpact.sdk.version>1.2</loadimpact.sdk.version>
         <jersey.version>2.4</jersey.version>
         <joda.version>2.3</joda.version>
         <junit.version>4.11</junit.version>
@@ -125,4 +117,3 @@
     </dependencies>
 
 </project>
-
