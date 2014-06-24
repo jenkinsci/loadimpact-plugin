@@ -21,16 +21,17 @@
         </profile>
     </profiles>
 
-  <name>LoadImpact Jenkins plugin</name>
-  <groupId>com.loadimpact</groupId>
-  <artifactId>loadimpact-plugin</artifactId>
-  <version>1.4</version>
-  <packaging>hpi</packaging>
+    <name>LoadImpact Jenkins plugin</name>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Load+Impact+Plugin</url>
+    <groupId>com.loadimpact</groupId>
+    <artifactId>loadimpact-plugin</artifactId>
+    <version>1.4</version>
+    <packaging>hpi</packaging>
 
-  <organization>
-    <name>Load Impact</name>
-    <url>http://loadimpact.com/</url>
-  </organization>
+    <organization>
+      <name>Load Impact</name>
+      <url>http://loadimpact.com/</url>
+    </organization>
 
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}.git</connection>
