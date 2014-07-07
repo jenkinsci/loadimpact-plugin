@@ -32,6 +32,12 @@
       <url>http://loadimpact.com/</url>
     </organization>
 
+    <scm>
+      <connection>scm:git:ssh://github.com/jenkinsci/loadimpact-plugin.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/jenkinsci/loadimpact-plugin.git</developerConnection>
+      <url>https://github.com/jenkinsci/loadimpact-plugin</url>
+    </scm>
+
     <developers>
       <developer>
         <id>ragnarlonn</id>
