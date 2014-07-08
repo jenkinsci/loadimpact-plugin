@@ -24,7 +24,7 @@
     <groupId>com.loadimpact</groupId>
     <artifactId>loadimpact-plugin</artifactId>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Load+Impact+Plugin</url>
-    <version>1.58-SNAPSHOT</version>
+    <version>1.58</version>
     <packaging>hpi</packaging>
     <organization>
       <name>Load Impact</name>
@@ -35,7 +35,8 @@
       <connection>scm:git:ssh://github.com/jenkinsci/loadimpact-plugin.git</connection>
       <developerConnection>scm:git:ssh://git@github.com/jenkinsci/loadimpact-plugin.git</developerConnection>
       <url>https://github.com/jenkinsci/loadimpact-plugin</url>
-    </scm>
+      <tag>loadimpact-plugin-1.58</tag>
+  </scm>
 
     <build>
         <plugins>
