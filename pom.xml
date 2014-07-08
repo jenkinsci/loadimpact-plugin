@@ -24,7 +24,7 @@
     <groupId>com.loadimpact</groupId>
     <artifactId>loadimpact-plugin</artifactId>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Load+Impact+Plugin</url>
-    <version>1.54-SNAPSHOT</version>
+    <version>1.55</version>
     <packaging>hpi</packaging>
     <organization>
       <name>Load Impact</name>
@@ -71,7 +71,23 @@
         </pluginRepository>
     </pluginRepositories>
 
-
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.4.2</version>
+          <dependencies>
+            <dependency>
+              <groupId>org.apache.maven.scm</groupId>
+              <artifactId>maven-scm-provider-gitexe</artifactId>
+              <version>1.9</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    
     <dependencies>
         <dependency>
             <groupId>com.loadimpact</groupId>
