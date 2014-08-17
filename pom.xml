@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>1.535</version>
+        <version>1.509</version>
     </parent>
     
     <profiles>
@@ -24,7 +24,7 @@
     <groupId>com.loadimpact</groupId>
     <artifactId>loadimpact-plugin</artifactId>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Load+Impact+Plugin</url>
-    <version>1.59-SNAPSHOT</version>
+    <version>1.60-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <organization>
       <name>Load Impact</name>
